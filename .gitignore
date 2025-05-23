@@ -1,0 +1,33 @@
+# Ignore Docker build files
+.DS_Store
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.test.yml
+
+# Ignore Docker volumes
+volumes/
+
+# Ignore Docker container logs
+logs/
+
+# Ignore Docker image files
+*.tar
+*.gz
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore environment variables file
+.env
+.**.bk
+
+# Ignore Docker container configuration files
+docker-compose-dev.yml
+

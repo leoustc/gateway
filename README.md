@@ -33,15 +33,15 @@ services:
 
 ```env
 # Public address used for OAuth redirect
-PUBLIC_URL=https://code.leoustc.com
+PUBLIC_URL=https://your.domain.com
 
 # OAuth2 provider credentials
 OAUTH2_PROVIDER=github
-OAUTH2_CLIENT_ID=Iv1.6a7b9a1e29c53fa0
-OAUTH2_CLIENT_SECRET=7c91394b587e3bba240af1d4cc4f22c84937ff92
+OAUTH2_CLIENT_ID=Iv1.6a7bxxxxxxxx3fa0
+OAUTH2_CLIENT_SECRET=7c91xxxxxxxxe3bba240af1d4cc4f22c84937ff92
 
 # Secure random 32-byte cookie secret
-COOKIE_SECRET=Z1dXu72lqRTy8KN5AOHCB9Qv5Xe6jfVd
+COOKIE_SECRET=Z1dXu72lqRxxxxxxxxHCB9Qv5Xe6jfVd
 
 # Whitelisted login identities
 ALLOWED_EMAILS=someone@gmail.com,user@examples.com,user2@goo.com
@@ -73,7 +73,7 @@ NGINX_CONFIG_EXTRAS=
 3. Set the **Authorization callback URL** to:
 
 ```
-https://code.leoustc.com/oauth2/callback
+https://your.domain.com/oauth2/callback
 ```
 
 4. Use your Client ID and Secret in `.env`
@@ -115,7 +115,10 @@ Then visit:
 
 ## 🛡 License
 
-MIT — Free for commercial or private use.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+   http://www.apache.org/licenses/LICENSE-2.0
 
 ---
 
